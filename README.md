@@ -30,18 +30,6 @@ A modern, responsive Flutter portfolio application showcasing my skills, project
 - **Dart** - Programming language
 - **Firebase** - Backend services and analytics
 
-### Key Dependencies
-- `animated_text_kit` - Beautiful text animations
-- `provider` - State management
-- `font_awesome_flutter` - Icon library
-- `shimmer_animation` - Loading animations
-- `url_launcher` - External link handling
-- `device_preview` - Development preview tool
-- `seo` - SEO optimization for web
-
-### Custom Fonts
-- **Gilroy** - Complete font family (Thin to Black weights)
-
 ## 📁 Project Structure
 
 ```
@@ -60,16 +48,6 @@ lib/
 ├── widgets/            # Custom widgets
 └── sizes.dart          # Responsive sizing utilities
 ```
-
-## 🚀 Getting Started
-
-### Prerequisites
-- Flutter SDK (^3.7.2)
-- Dart SDK
-- Android Studio / VS Code
-- Git
-
-### Installation
 
 1. **Clone the repository**
    ```bash
@@ -94,16 +72,6 @@ lib/
 
 ### Build Commands
 
-```bash
-# For Android
-flutter build apk --release
-
-# For iOS
-flutter build ios --release
-
-# For Web
-flutter build web --release
-```
 
 ## 📱 Screenshots
 
@@ -138,13 +106,6 @@ flutter build web --release
 
 ## 🔗 Configuration
 
-### Theme Customization
-The app uses a custom dark theme with:
-- Primary Color: `#5dc8f8` (Light Blue)
-- Secondary Color: `#065a9d` (Dark Blue)
-- Background: `#0c0c0c` (Dark Gray)
-- Font Family: Gilroy
-
 ### Firebase Setup
 1. Create a Firebase project
 2. Enable Analytics
@@ -157,10 +118,6 @@ The app uses a custom dark theme with:
 - **Loading Time**: Fast startup with efficient asset loading
 - **Memory Usage**: Optimized for smooth performance
 - **Battery Life**: Efficient resource management
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 

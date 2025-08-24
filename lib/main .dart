@@ -1,4 +1,5 @@
 // ignore: file_names
+import 'package:device_preview/device_preview.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:portfolio/firebase/analytics.dart';
@@ -13,7 +14,7 @@ Future<void> main() async {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
-    runApp(const MyApp());
+    runApp(DevicePreview(builder: (context) => const MyApp()));
   } catch (e, stackTrace) {
     print('Firebase Init Error: $e');
     print('StackTrace: $stackTrace');
